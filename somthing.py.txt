@@ -22,3 +22,4 @@ def handle_post(file: FileStorage, name, email):
         return render_template("remerciement.html",
                                name=name,
                                email=email)
+
